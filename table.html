@@ -1,4 +1,18 @@
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    th{
+       background: lightblue;
+    }
+</style>
+
+
 <table>
+    <caption>Table Title</caption>
     <thead>
         <tr>
             <th>Heading 1</th>
@@ -12,6 +26,15 @@
             <td>Cell 1</td>
             <td>Cell 2</td>
             <td>Cell 3</td>
+        </tr>
+
+        <tr>
+            <td>Cell 4</td>
+            <td colspan="2" rowspan="2" align="center">Cell 5</td>
+        </tr>
+
+        <tr>
+            <td id="six">Cell 6</td>
         </tr>
     </tbody>
 
