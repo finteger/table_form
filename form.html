@@ -1,0 +1,26 @@
+<style>
+    fieldset{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    input, button{
+        margin: 8px;
+        max-width: 200px;
+    }
+</style>
+
+<form action="controller.php" method="POST" enctype="multipart/form-data">
+    <fieldset>
+        <legend>Login Form</legend>
+
+    <!-- <label for="input">Enter Text:</label> --> 
+
+    <input type="text" placeholder="Username" name="input"/>
+
+    <input type="text" placeholder="Password" name="input"/>
+
+    <button>Submit</button>
+
+    </fieldset>
+</form>
